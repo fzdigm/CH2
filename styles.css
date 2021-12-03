@@ -38,7 +38,7 @@ a:hover {
 
 .div0 {
     width: 570px;
-    border: 1px solid white;
+    border: 1px solid rgb(148, 17, 148);
     text-align: center;
     margin: 0 auto;
     background-color: rgba(43, 6, 6, 0.507);
@@ -50,7 +50,7 @@ a:hover {
 }
 
 p {
-    color: white;
+    color: rgb(255, 255, 255);
     background-image: url("images/cat.png");
     background-repeat: no-repeat;
     background-size: cover;
