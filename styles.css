@@ -16,25 +16,15 @@ html {
 }
 
 header, footer {
-    float: left;
     /* height: 300px; */
     width: 100%;
     border: 2px solid black;
-    background: #a33b20;
+    background:navy;
 }
 
-
-/* 
-
-*, ::before, ::after {
-    box-sizing: border-box;
-}
-html {
-    font-size: 62.5%;
-} */
 
 body {
-    background: url("images/palms.jpg") no-repeat fixed center center;
+    background: url("images/street.jpg") no-repeat fixed center center;
     background-size: cover; 
 }
 img {
@@ -44,11 +34,18 @@ img {
 }
 
 h1 {
-    text-align: center;
-    margin-top: 75px;
-    margin-bottom: 50px;
+    text-align: left;
+    margin auto;
+    
     font-size: 5.0rem;
-    color:brown
+    color:blue;
+    border: 1px solid black;
+}
+
+.divh {
+    border: 1px solid black;
+    height: 120px;
+    background: black;
 }
 
 .div1 {
@@ -82,7 +79,7 @@ a {
     text-decoration: none;
 }
 a:link {
-    color: deeppink;
+    color: white;
     text-decoration: none;
 }
 a:visited {
@@ -133,9 +130,9 @@ a:active {
     text-align: center;
     margin: 0 auto;
     background-color: rgba(43, 6, 6, 0.507);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    margin-bottom: 75px;
+    /* margin-bottom: 75px; */
     text-shadow: 1px 1px 1px black;
     text-align: left;
 }
@@ -147,6 +144,15 @@ p {
     background-size: cover;
     font-size: 1.8rem;
 }
+
+
+
+
+
+
+
+
+
 @media (min-width:869px) and (max-width:1100px) {
     img {
         width: 275px;
