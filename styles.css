@@ -28,24 +28,33 @@ body {
     background-size: cover; 
 }
 img {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     padding: 10px;
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     margin auto;
-    
     font-size: 5.0rem;
-    color:blue;
+    color: rgb(33, 158, 241);
     border: 1px solid black;
 }
-
+h2 {
+    color: rgb(33, 158, 241);
+}
 .divh {
     border: 1px solid black;
-    height: 120px;
+    padding: 2%;
     background: black;
+    border: 1px solid blue;
+}
+p {
+    color: rgb(33, 158, 241);
+    text-align: center;
+    border: 1px solid blue;
+    background: black;
+    padding: 2%;
 }
 
 .div1 {
@@ -123,7 +132,7 @@ a:active {
 
 
 
-
+/* 
 .div0 {
     width: 570px;
     border: 1px solid rgb(148, 17, 148);
@@ -135,7 +144,7 @@ a:active {
     /* margin-bottom: 75px; */
     text-shadow: 1px 1px 1px black;
     text-align: left;
-}
+} */
 
 p {
     color: rgb(255, 255, 255);
