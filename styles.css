@@ -15,22 +15,37 @@ html {
     text-align: center;
 }
 
-header, footer {
-    /* height: 300px; */
+header {
+    height: 50px;
     width: 100%;
     border: 2px solid black;
     background:navy;
 }
-
+footer {
+    height: 50px;
+    width: 100%;
+    bottom:0px;
+    /* left: 0px; */
+    position: fixed;
+    border: 2px solid black;
+    background:navy;
+}
 
 body {
     background: url("images/street.jpg") no-repeat fixed center center;
     background-size: cover; 
 }
-img {
+/* img {
     width: 400px;
     height: 400px;
-    padding: 10px;
+    /* padding: 10px; */
+} */
+
+.img1 {
+    width: 800px;
+    height: 400px;
+    /* padding: 10px; */
+    border: 1px solid blue;
 }
 
 h1 {
@@ -43,30 +58,15 @@ h1 {
 h2 {
     color: rgb(33, 158, 241);
 }
-.divh {
-    border: 1px solid black;
-    padding: 2%;
-    background: black;
-    border: 1px solid blue;
-}
-p {
-    color: rgb(33, 158, 241);
-    text-align: center;
-    border: 1px solid blue;
-    background: black;
-    padding: 2%;
-}
 
-.div1 {
-    display: flex;
-    flex-flow:row nowrap;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-}
+
 
 a:hover {
     opacity: .80;
 }
+
+
+
 
 
 
@@ -104,32 +104,84 @@ a:active {
 
 
 
+.divh {
+    border: 1px solid black;
+    padding: 2%;
+    background: black;
+    border: 1px solid blue;
+}
+
 .div11 {
     width: 50%;
-    height: 500px;
+    height: 400px;
     float: left;
+    /* border: 1px solid green; */
  
 }
-.div12 {
-    width: 50%;
-    height: 500px;
-    float: left;
 
-}
-.div13 {
-    width: 50%;
-    height: 500px;
-    float: left;
-  
-}
-.div14 {
-    width: 50%;
-    height: 500px;
-    float: left;
+.div1 {
+    display: flex;
+    height: 400px;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    /* border: 1px solid red; */
 }
 
+.div21 {
+    
+    margin: 0, 1%;
+    /* margin-left: 1%;
+    margin-top: 1%; */
+    width: 40%;
+    height: 800px;
+    float: left;
+    border: 5px solid green;
+}
+.div22 {
+    margin: 0, 1%;
+    width: 60%;
+    height: 400px;
+    float: left;
+    border: 5px solid green;
+}
+.div23 {
+    margin-left: 1%;
+    width: 29%;
+    height: 400px;
+    float: left;
+    border: 5px solid green;
+}
+
+p {
+    color: rgb(33, 158, 241);
+    text-align: center;
+    border: 1px solid blue;
+    background: black;
+    padding: 1%;
+    margin-bottom: 10%;
+}
+.p2 {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.ph {
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
 
 
+
+
+
+/* 
+p {
+    color: rgb(255, 255, 255);
+    background-image: url("images/cat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.8rem;
+} */
 
 
 /* 
@@ -144,22 +196,10 @@ a:active {
     /* margin-bottom: 75px; */
     text-shadow: 1px 1px 1px black;
     text-align: left;
-} */
+} 
+*/
 
-p {
-    color: rgb(255, 255, 255);
-    background-image: url("images/cat.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 1.8rem;
-}
-
-
-
-
-
-
-
+/*
 
 
 @media (min-width:869px) and (max-width:1100px) {
@@ -221,4 +261,4 @@ p {
         width: 100%;
     }
 }
-
+ */
