@@ -35,11 +35,11 @@ body {
     background: url("images/street.jpg") no-repeat fixed center center;
     background-size: cover; 
 }
-/* img {
+img {
     width: 400px;
     height: 400px;
     /* padding: 10px; */
-} */
+}
 
 .img1 {
     width: 800px;
@@ -47,6 +47,20 @@ body {
     /* padding: 10px; */
     border: 1px solid blue;
 }
+.img21 {
+    width: 400px;
+    height: 200px;
+    /* padding: 10px; */
+    border: 1px solid blue;
+}
+
+.img3 {
+    width: 400px;
+    height: 200px;
+    /* padding: 10px; */
+    border: 1px solid blue;
+}
+
 
 h1 {
     text-align: center;
@@ -103,30 +117,42 @@ a:active {
 }
 
 
-
+/* Home */
 .divh {
-    border: 1px solid black;
     padding: 2%;
     background: black;
-    border: 1px solid blue;
+    border: 2px solid green;
 }
-
-.div11 {
-    width: 50%;
-    height: 400px;
-    float: left;
-    /* border: 1px solid green; */
- 
-}
-
 .div1 {
-    display: flex;
     height: 400px;
-    flex-flow:row nowrap;
-    justify-content: space-evenly;
     margin-bottom: 50px;
-    /* border: 1px solid red; */
+    border: 2px solid red;
 }
+.div11 {
+    height: 400px;
+    width: 50%;
+    float: left;
+    border: 2px solid green;
+}
+
+p {
+    color: rgb(33, 158, 241);
+    text-align: center;
+    border: 1px solid yellow;
+    background: black;
+    padding: 1%;
+    margin-bottom: 10%;
+}
+p.ph {
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
+p.p1 {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+
 
 .div21 {
     
@@ -136,42 +162,27 @@ a:active {
     width: 40%;
     height: 800px;
     float: left;
-    border: 5px solid green;
+    border-top: 5px solid blue;
+    border-right: 5px solid blue;
+    border-left: 5px solid blue;
 }
 .div22 {
     margin: 0, 1%;
     width: 60%;
     height: 400px;
     float: left;
-    border: 5px solid green;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-right: 5px solid blue;
 }
 .div23 {
     margin-left: 1%;
     width: 29%;
     height: 400px;
     float: left;
-    border: 5px solid green;
+    border-right: 5px solid blue;
+    border-: 5px solid blue;
 }
-
-p {
-    color: rgb(33, 158, 241);
-    text-align: center;
-    border: 1px solid blue;
-    background: black;
-    padding: 1%;
-    margin-bottom: 10%;
-}
-.p2 {
-    margin-left: 25%;
-    margin-top: 10%;
-}
-.ph {
-    margin-top: -1%;
-    margin-bottom: 5%;
-}
-
-
-
 
 
 /* 
