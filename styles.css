@@ -35,31 +35,7 @@ body {
     background: url("images/street.jpg") no-repeat fixed center center;
     background-size: cover; 
 }
-img {
-    width: 400px;
-    height: 400px;
-    /* padding: 10px; */
-}
 
-.img1 {
-    width: 800px;
-    height: 400px;
-    /* padding: 10px; */
-    border: 1px solid blue;
-}
-.img21 {
-    width: 400px;
-    height: 200px;
-    /* padding: 10px; */
-    border: 1px solid blue;
-}
-
-.img3 {
-    width: 400px;
-    height: 200px;
-    /* padding: 10px; */
-    border: 1px solid blue;
-}
 
 
 h1 {
@@ -116,52 +92,34 @@ a:active {
     color: darkcyan;
 }
 
+div {
+    border: 2px solid green;
+}
 
 /* Home */
 .divh {
     padding: 2%;
     background: black;
-    border: 2px solid green;
+
 }
 .div1 {
     height: 400px;
     margin-bottom: 50px;
-    border: 2px solid red;
 }
 .div11 {
     height: 400px;
     width: 50%;
     float: left;
-    border: 2px solid green;
-}
 
-p {
-    color: rgb(33, 158, 241);
-    text-align: center;
-    border: 1px solid yellow;
-    background: black;
-    padding: 1%;
-    margin-bottom: 10%;
 }
-p.ph {
-    margin-top: -1%;
-    margin-bottom: 5%;
-}
-p.p1 {
-    margin-left: 25%;
-    margin-top: 10%;
-}
-
-
 
 .div21 {
     
     margin: 0, 1%;
-    /* margin-left: 1%;
-    margin-top: 1%; */
     width: 40%;
     height: 800px;
     float: left;
+    
     border-top: 5px solid blue;
     border-right: 5px solid blue;
     border-left: 5px solid blue;
@@ -171,6 +129,7 @@ p.p1 {
     width: 60%;
     height: 400px;
     float: left;
+    
     border-top: 5px solid blue;
     border-bottom: 5px solid blue;
     border-right: 5px solid blue;
@@ -180,10 +139,64 @@ p.p1 {
     width: 29%;
     height: 400px;
     float: left;
+    
     border-right: 5px solid blue;
     border-: 5px solid blue;
 }
 
+img {
+    width: 400px;
+    height: 400px;
+    /* padding: 10px; */
+}
+.img12 {
+    width: 300px;
+    height: 300px;
+    /* padding: 10px; */
+    border: 1px solid blue;
+}
+.img1 {
+    width: 800px;
+    height: 400px;
+    /* padding: 10px; */
+    border: 1px solid blue;
+}
+.img21 {
+    width: 400px;
+    height: 200px;
+    /* padding: 10px; */
+    border: 1px solid blue;
+}
+
+.img22 {
+    width: 200px;
+    height: 200px;
+    /* padding: 10px; */
+    border: 1px solid blue;
+}
+
+
+
+p {
+    color: rgb(33, 158, 241);
+    text-align: center;
+    border: 1px solid yellow;
+    background: black;
+    padding: 1%;
+    margin-bottom: 10%;
+}
+.ph {
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
+.p1 {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.p2 {
+    margin-left: 20%;
+    margin-top: 10%;
+}
 
 /* 
 p {
