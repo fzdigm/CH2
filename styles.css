@@ -125,7 +125,7 @@ div {
 p {
     color: greenyellow;
     text-align: center;
-    /* border: 2px solid green; */
+    border: 2px solid green;
 }
 .p1 {
     margin-right: 5%;
